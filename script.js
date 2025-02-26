@@ -12,6 +12,8 @@ updateText();
 function updateText(){
     caracterIndex++;
     containerEl.innerHTML = `
+     <h1>Hello, my name is Khuliso John Thavhiwa, and</h1>
+       
     <h1>I am a ${careers[careerIndex].slice(0,caracterIndex)}</h1>
     `;
  
